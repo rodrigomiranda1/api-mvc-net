@@ -1,0 +1,478 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "WebAPIClinica",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/MedicosAPI/GetMedicos": {
+      "get": {
+        "tags": [
+          "MedicosAPI"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Medico"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Medico"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Medico"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/MedicosAPI/GetMedico/{id}": {
+      "get": {
+        "tags": [
+          "MedicosAPI"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Medico"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Medico"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Medico"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/MedicosAPI": {
+      "post": {
+        "tags": [
+          "MedicosAPI"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Medico"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Medico"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Medico"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Medico"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Medico"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Medico"
+                }
+              }
+            }
+          }
+        }
+      },
+      "put": {
+        "tags": [
+          "MedicosAPI"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Medico"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Medico"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Medico"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Medico"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Medico"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Medico"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/MedicosAPI/DeleteMedico/{id}": {
+      "delete": {
+        "tags": [
+          "MedicosAPI"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/Medico"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Medico"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Medico"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/WeatherForecast": {
+      "get": {
+        "tags": [
+          "WeatherForecast"
+        ],
+        "operationId": "GetWeatherForecast",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/WeatherForecast"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Cita": {
+        "type": "object",
+        "properties": {
+          "nrocita": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "codmed": {
+            "type": "string",
+            "nullable": true
+          },
+          "codpac": {
+            "type": "string",
+            "nullable": true
+          },
+          "pago": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "fecha": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "estado": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "descrip": {
+            "type": "string",
+            "nullable": true
+          },
+          "codmedNavigation": {
+            "$ref": "#/components/schemas/Medico"
+          },
+          "codpacNavigation": {
+            "$ref": "#/components/schemas/Paciente"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Distrito": {
+        "type": "object",
+        "properties": {
+          "coddis": {
+            "type": "string",
+            "nullable": true
+          },
+          "nomdis": {
+            "type": "string",
+            "nullable": true
+          },
+          "eliminado": {
+            "type": "string",
+            "nullable": true
+          },
+          "medicos": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Medico"
+            },
+            "nullable": true
+          },
+          "pacientes": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Paciente"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Especialidad": {
+        "type": "object",
+        "properties": {
+          "codesp": {
+            "type": "string",
+            "nullable": true
+          },
+          "nomesp": {
+            "type": "string",
+            "nullable": true
+          },
+          "costo": {
+            "type": "number",
+            "format": "double",
+            "nullable": true
+          },
+          "eliminado": {
+            "type": "string",
+            "nullable": true
+          },
+          "medicos": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Medico"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Medico": {
+        "type": "object",
+        "properties": {
+          "codmed": {
+            "type": "string",
+            "nullable": true
+          },
+          "nommed": {
+            "type": "string",
+            "nullable": true
+          },
+          "anioColegio": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "codesp": {
+            "type": "string",
+            "nullable": true
+          },
+          "coddis": {
+            "type": "string",
+            "nullable": true
+          },
+          "eliminado": {
+            "type": "string",
+            "nullable": true
+          },
+          "cita": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Cita"
+            },
+            "nullable": true
+          },
+          "coddisNavigation": {
+            "$ref": "#/components/schemas/Distrito"
+          },
+          "codespNavigation": {
+            "$ref": "#/components/schemas/Especialidad"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Paciente": {
+        "type": "object",
+        "properties": {
+          "codpac": {
+            "type": "string",
+            "nullable": true
+          },
+          "nompac": {
+            "type": "string",
+            "nullable": true
+          },
+          "dnipac": {
+            "type": "string",
+            "nullable": true
+          },
+          "telCel": {
+            "type": "string",
+            "nullable": true
+          },
+          "dirpac": {
+            "type": "string",
+            "nullable": true
+          },
+          "coddis": {
+            "type": "string",
+            "nullable": true
+          },
+          "eliminado": {
+            "type": "string",
+            "nullable": true
+          },
+          "cita": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Cita"
+            },
+            "nullable": true
+          },
+          "coddisNavigation": {
+            "$ref": "#/components/schemas/Distrito"
+          }
+        },
+        "additionalProperties": false
+      },
+      "WeatherForecast": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "type": "string",
+            "format": "date"
+          },
+          "temperatureC": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "temperatureF": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "summary": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}

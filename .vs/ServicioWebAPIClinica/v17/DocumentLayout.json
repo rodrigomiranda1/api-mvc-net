@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\DSW1\\Sesion_07\\ServicioWebAPIClinica\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{24A1C2D3-CE30-4F60-A0E2-69DF724867B6}|WebAPIClinica\\WebAPIClinica.csproj|d:\\dsw1\\sesion_07\\serviciowebapiclinica\\webapiclinica\\controllers\\medicosapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24A1C2D3-CE30-4F60-A0E2-69DF724867B6}|WebAPIClinica\\WebAPIClinica.csproj|solutionrelative:webapiclinica\\controllers\\medicosapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24A1C2D3-CE30-4F60-A0E2-69DF724867B6}|WebAPIClinica\\WebAPIClinica.csproj|d:\\dsw1\\sesion_07\\serviciowebapiclinica\\webapiclinica\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24A1C2D3-CE30-4F60-A0E2-69DF724867B6}|WebAPIClinica\\WebAPIClinica.csproj|solutionrelative:webapiclinica\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24A1C2D3-CE30-4F60-A0E2-69DF724867B6}|WebAPIClinica\\WebAPIClinica.csproj|d:\\dsw1\\sesion_07\\serviciowebapiclinica\\webapiclinica\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{24A1C2D3-CE30-4F60-A0E2-69DF724867B6}|WebAPIClinica\\WebAPIClinica.csproj|solutionrelative:webapiclinica\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24A1C2D3-CE30-4F60-A0E2-69DF724867B6}|WebAPIClinica\\WebAPIClinica.csproj|d:\\dsw1\\sesion_07\\serviciowebapiclinica\\webapiclinica\\models\\bdclinica2026webapicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24A1C2D3-CE30-4F60-A0E2-69DF724867B6}|WebAPIClinica\\WebAPIClinica.csproj|solutionrelative:webapiclinica\\models\\bdclinica2026webapicontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24A1C2D3-CE30-4F60-A0E2-69DF724867B6}|WebAPIClinica\\WebAPIClinica.csproj|d:\\dsw1\\sesion_07\\serviciowebapiclinica\\webapiclinica\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{24A1C2D3-CE30-4F60-A0E2-69DF724867B6}|WebAPIClinica\\WebAPIClinica.csproj|solutionrelative:webapiclinica\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MedicosAPIController.cs",
+              "DocumentMoniker": "D:\\DSW1\\Sesion_07\\ServicioWebAPIClinica\\WebAPIClinica\\Controllers\\MedicosAPIController.cs",
+              "RelativeDocumentMoniker": "WebAPIClinica\\Controllers\\MedicosAPIController.cs",
+              "ToolTip": "D:\\DSW1\\Sesion_07\\ServicioWebAPIClinica\\WebAPIClinica\\Controllers\\MedicosAPIController.cs",
+              "RelativeToolTip": "WebAPIClinica\\Controllers\\MedicosAPIController.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAAAEsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-31T17:44:07.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\DSW1\\Sesion_07\\ServicioWebAPIClinica\\WebAPIClinica\\Program.cs",
+              "RelativeDocumentMoniker": "WebAPIClinica\\Program.cs",
+              "ToolTip": "D:\\DSW1\\Sesion_07\\ServicioWebAPIClinica\\WebAPIClinica\\Program.cs",
+              "RelativeToolTip": "WebAPIClinica\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-31T17:34:56.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\DSW1\\Sesion_07\\ServicioWebAPIClinica\\WebAPIClinica\\appsettings.json",
+              "RelativeDocumentMoniker": "WebAPIClinica\\appsettings.json",
+              "ToolTip": "D:\\DSW1\\Sesion_07\\ServicioWebAPIClinica\\WebAPIClinica\\appsettings.json",
+              "RelativeToolTip": "WebAPIClinica\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-31T17:30:54.847Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Bdclinica2026WebapiContext.cs",
+              "DocumentMoniker": "D:\\DSW1\\Sesion_07\\ServicioWebAPIClinica\\WebAPIClinica\\Models\\Bdclinica2026WebapiContext.cs",
+              "RelativeDocumentMoniker": "WebAPIClinica\\Models\\Bdclinica2026WebapiContext.cs",
+              "ToolTip": "D:\\DSW1\\Sesion_07\\ServicioWebAPIClinica\\WebAPIClinica\\Models\\Bdclinica2026WebapiContext.cs",
+              "RelativeToolTip": "WebAPIClinica\\Models\\Bdclinica2026WebapiContext.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-31T17:28:41.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\DSW1\\Sesion_07\\ServicioWebAPIClinica\\WebAPIClinica\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "WebAPIClinica\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\DSW1\\Sesion_07\\ServicioWebAPIClinica\\WebAPIClinica\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "WebAPIClinica\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-31T17:11:25.13Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
